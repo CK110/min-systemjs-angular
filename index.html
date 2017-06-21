@@ -11,6 +11,10 @@
 
     <script src="https://unpkg.com/zone.js/dist/zone.min.js"></script>
     <script src="https://unpkg.com/systemjs/dist/system.src.js"></script>
+    
+<!--     <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.min.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script> -->
 
     <script>
       (function (global) {
@@ -37,6 +41,7 @@
           paths: {
             // paths serve as alias
             'npm:': 'https://unpkg.com/'
+//             'npm:': 'node_modules/'
           },
           bundles: {
           "npm:rxjs-system-bundle/Rx.system.min.js": [
